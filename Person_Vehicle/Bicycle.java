@@ -1,9 +1,9 @@
 /**
-   * e¸×½ Vehicle
-   * Bycleºİ½Ä×¸À name color
-   * Bycycle‚Å‘–s‚·‚é‹——£‚ğ“ü—Í‚©‚çó•t‚¯‚µA•\¦‚·‚éÒ¿¯ÄŞ run() distance
+   * è¦ªï½¸ï¾—ï½½ Vehicle
+   * Bycleï½ºï¾ï½½ï¾„ï¾—ï½¸ï¾€ name color
+   * Bycycleã§èµ°è¡Œã™ã‚‹è·é›¢ã‚’å…¥åŠ›ã‹ã‚‰å—ä»˜ã‘ã—ã€è¡¨ç¤ºã™ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾ run() distance
   
-  /* @author Miyashita m
+  /* @author Miki
    * @version 2023 1/6
    */
 // ----------------------------------------------------------------
@@ -11,7 +11,7 @@
 class Bicycle extends Vehicle {
 
   /* @param name,color
-   * @return ‚È‚µ
+   * @return ãªã—
    */
 
   Bicycle(String name, String color) {
@@ -19,13 +19,13 @@ class Bicycle extends Vehicle {
   }
 
   /**
-   * D ‘–s‹——£‚ğó‚¯æ‚éÒ¿¯ÄŞ
+   * D èµ°è¡Œè·é›¢ã‚’å—ã‘å–ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾
    *
-   * @param distance ‘–s‹——£
-   *                 (’PˆÊ‚Íkm)
+   * @param distance èµ°è¡Œè·é›¢
+   *                 (å˜ä½ã¯km)
    *
-   * @param distance ‘–s‹——£
-   * @return ‚È‚µ
+   * @param distance èµ°è¡Œè·é›¢
+   * @return ãªã—
    */
   public void run(int distance) {
     System.out.println(distance + Consta.DISTANCE_REPO_INFO);
