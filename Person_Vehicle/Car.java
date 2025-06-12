@@ -1,15 +1,15 @@
 /**
-   * e¸×½ Vehicle
-   * A Carİ½Ä×¸À name color
-   * B B fuel¹Ş¯À°Ò¿¯ÄŞ  this.fuel
-   * C fuel¾¯À°Ò¿¯ÄŞ  fuel
-   * D ÃŞ°Ào—Í—pÒ¿¯ÄŞ ÃŞÌ«ÙÄ’l‚Æ‚µ‚Äºİ¿°Ù‚Ö•\¦‚·‚é e¸×½Vehicle‚©‚çµ°ÊŞ°×²ÄŞ
-   * E ‘–s‹——£‚ğó‚¯æ‚éÒ¿¯ÄŞ  distance ‘–s‹——£ (’PˆÊ‚Íkm)A fuel ƒKƒ\ƒŠƒ“—Ê(’PˆÊ‚ÍL)
-   * F ‹‹–û—Ê‚ğŒvZ‚µºİ¿°Ù‚Ö•\¦‚·‚éÒ¿¯ÄŞ                 
-   *   charge (’PˆÊ‚ÍL) 86s–Ú ‹‹–û—Ê”»’è ‹‹–û‚µ‚½ê‡‚Ífuel‚É100‚ğ‘ã“ü ‚¢‚¸‚ê‚Å‚à‚È‚¢ê‡‚Ífuel‚Ì’l‚ğXV
+   * è¦ªï½¸ï¾—ï½½ Vehicle
+   * A Carï¾ï½½ï¾„ï¾—ï½¸ï¾€ name color
+   * B B fuelï½¹ï¾ï½¯ï¾€ï½°ï¾’ï½¿ï½¯ï¾„ï¾  this.fuel
+   * C fuelï½¾ï½¯ï¾€ï½°ï¾’ï½¿ï½¯ï¾„ï¾  fuel
+   * D ï¾ƒï¾ï½°ï¾€å‡ºåŠ›ç”¨ï¾’ï½¿ï½¯ï¾„ï¾ ï¾ƒï¾ï¾Œï½«ï¾™ï¾„å€¤ã¨ã—ã¦ï½ºï¾ï½¿ï½°ï¾™ã¸è¡¨ç¤ºã™ã‚‹ è¦ªï½¸ï¾—ï½½Vehicleã‹ã‚‰ï½µï½°ï¾Šï¾ï½°ï¾—ï½²ï¾„ï¾
+   * E èµ°è¡Œè·é›¢ã‚’å—ã‘å–ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾  distance èµ°è¡Œè·é›¢ (å˜ä½ã¯km)ã€ fuel ã‚¬ã‚½ãƒªãƒ³é‡(å˜ä½ã¯L)
+   * F çµ¦æ²¹é‡ã‚’è¨ˆç®—ã—ï½ºï¾ï½¿ï½°ï¾™ã¸è¡¨ç¤ºã™ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾                 
+   *   charge (å˜ä½ã¯L) 86è¡Œç›® çµ¦æ²¹é‡åˆ¤å®š çµ¦æ²¹ã—ãŸå ´åˆã¯fuelã«100ã‚’ä»£å…¥ ã„ãšã‚Œã§ã‚‚ãªã„å ´åˆã¯fuelã®å€¤ã‚’æ›´æ–°
      
  
-  /* @author Miyashita m
+  /* @author Miki
    * @version 2023 1/6
    */
 // ----------------------------------------------------------------
@@ -20,20 +20,20 @@ class Car extends Vehicle {
   private final int FUEL_MAX = 100;
   private final int LITRE_MIN = 0;
 
-  /** e¸×½ Vehicle
-   * A CArºİ½Ä×¸À
+  /** è¦ªï½¸ï¾—ï½½ Vehicle
+   * A CArï½ºï¾ï½½ï¾„ï¾—ï½¸ï¾€
    *
    * @param name,color
-   * @return ‚È‚µ
+   * @return ãªã—
    */
   Car(String name, String color) {
     super(name, color);
   }
 
   /**
-   * B fuel¹Ş¯À°Ò¿¯ÄŞ
+   * B fuelï½¹ï¾ï½¯ï¾€ï½°ï¾’ï½¿ï½¯ï¾„ï¾
    *
-   * @param ‚È‚µ
+   * @param ãªã—
    * @return this.fuel
    */
   public int getFuel() {
@@ -41,20 +41,20 @@ class Car extends Vehicle {
   }
 
   /**
-   * C fuel¾¯À°Ò¿¯ÄŞ
+   * C fuelï½¾ï½¯ï¾€ï½°ï¾’ï½¿ï½¯ï¾„ï¾
    *
    * @param fuel
-   * @return ‚È‚µ
+   * @return ãªã—
    */
   public void setFuel(int fuel) {
     this.fuel = fuel;
   }
 
   /**
-   * D ÃŞ°Ào—Í—pÒ¿¯ÄŞ ÃŞÌ«ÙÄ’l‚Æ‚µ‚Äºİ¿°Ù‚Ö•\¦‚·‚é
-   * e¸×½Vehicle‚©‚çµ°ÊŞ°×²ÄŞ
-   * @param ‚È‚µ
-   * @return ‚È‚µ
+   * D ï¾ƒï¾ï½°ï¾€å‡ºåŠ›ç”¨ï¾’ï½¿ï½¯ï¾„ï¾ ï¾ƒï¾ï¾Œï½«ï¾™ï¾„å€¤ã¨ã—ã¦ï½ºï¾ï½¿ï½°ï¾™ã¸è¡¨ç¤ºã™ã‚‹
+   * è¦ªï½¸ï¾—ï½½Vehicleã‹ã‚‰ï½µï½°ï¾Šï¾ï½°ï¾—ï½²ï¾„ï¾
+   * @param ãªã—
+   * @return ãªã—
    */
   public void printData() {
     super.printData();
@@ -62,21 +62,21 @@ class Car extends Vehicle {
   }
 
   /**
-   * E ‘–s‹——£‚ğó‚¯æ‚éÒ¿¯ÄŞ
+   * E èµ°è¡Œè·é›¢ã‚’å—ã‘å–ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾
    *
-   * @param distance ‘–s‹——£
-   *                 (’PˆÊ‚Íkm)
+   * @param distance èµ°è¡Œè·é›¢
+   *                 (å˜ä½ã¯km)
    *
-   *                 59s–Ú ‘–s‹——£‚©‚çƒKƒ\ƒŠƒ“—Ê‚ğŒŸ¸‚µŒ‹‰Ê‚ğğŒ•ªŠò‚Åºİ¿°Ù‚Ö•\¦
-   * @param distance ‘–s‹——£
+   *                 59è¡Œç›® èµ°è¡Œè·é›¢ã‹ã‚‰ã‚¬ã‚½ãƒªãƒ³é‡ã‚’æ¤œæŸ»ã—çµæœã‚’æ¡ä»¶åˆ†å²ã§ï½ºï¾ï½¿ï½°ï¾™ã¸è¡¨ç¤º
+   * @param distance èµ°è¡Œè·é›¢
    * @param
-   * @return ‚È‚µ
+   * @return ãªã—
    */
   public void run(int distance) {
     System.out.println(distance + Consta.DISTANCE_REPO_INFO);
 
-    /* ‘–s‹——£distance‚ªƒKƒ\ƒŠƒ“—ÊfuelˆÈ‰º‚¾‚Á‚½A’l‚ğXV
-     *‘–s‹——£‚ªƒKƒ\ƒŠƒ“—Ê‚ğã‰ñ‚Á‚½‚Æ‚« */
+    /* èµ°è¡Œè·é›¢distanceãŒã‚¬ã‚½ãƒªãƒ³é‡fuelä»¥ä¸‹ã ã£ãŸæ™‚ã€å€¤ã‚’æ›´æ–°
+     *èµ°è¡Œè·é›¢ãŒã‚¬ã‚½ãƒªãƒ³é‡ã‚’ä¸Šå›ã£ãŸã¨ã */
 
     if (distance <= this.fuel) {
       this.distance += distance;
@@ -92,19 +92,19 @@ class Car extends Vehicle {
 
   //
   /**
-   * F ‹‹–û—Ê‚ğŒvZ‚µºİ¿°Ù‚Ö•\¦‚·‚éÒ¿¯ÄŞ
+   * F çµ¦æ²¹é‡ã‚’è¨ˆç®—ã—ï½ºï¾ï½¿ï½°ï¾™ã¸è¡¨ç¤ºã™ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾
    *
    * @param charge
-   *               (’PˆÊ‚ÍL)
-   *               86s–Ú ‹‹–û—Ê”»’è
-   *               ‹‹–û‚µ‚½ê‡‚Ífuel‚É100‚ğ‘ã“ü
-   *               ‚¢‚¸‚ê‚Å‚à‚È‚¢ê‡‚Ífuel‚Ì’l‚ğXV
-   * @return ‚È‚µ
+   *               (å˜ä½ã¯L)
+   *               86è¡Œç›® çµ¦æ²¹é‡åˆ¤å®š
+   *               çµ¦æ²¹ã—ãŸå ´åˆã¯fuelã«100ã‚’ä»£å…¥
+   *               ã„ãšã‚Œã§ã‚‚ãªã„å ´åˆã¯fuelã®å€¤ã‚’æ›´æ–°
+   * @return ãªã—
    */
   public void charge(int litre) {
     System.out.println(litre + Consta.CHRGE_MSG);
 
-    // ‹‹–û—Ê”»’è
+    // çµ¦æ²¹é‡åˆ¤å®š
     if (litre <= LITRE_MIN) {
       System.out.println(Consta.CHRGE_NG_MSG);
     } else if (litre + this.fuel >= FUEL_MAX) {
