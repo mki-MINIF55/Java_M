@@ -1,5 +1,5 @@
 /*
- * @author Miyashita m
+ * @author Miki
  *
  * @version 2023 1/6
  */
@@ -9,35 +9,35 @@
 class Consta {
 
   /**
-   * ºİ¿°Ù‚É•\¦‚·‚éBycicleECAR‚Ì’è”ƒƒbƒZ[ƒWî•ñ‚ÌƒvƒƒpƒeƒB‚Å‚·
+   * ï½ºï¾ï½¿ï½°ï¾™ã«è¡¨ç¤ºã™ã‚‹Bycicleãƒ»CARã®å®šæ•°ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æƒ…å ±ã®ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ã§ã™
    */
 
-  public static final String BICYCLE_NAME = "ƒrƒAƒ“ƒL";
-  public static final String BICYCLE_COLOR = "—Î";
-  public static final String CAR_NAME = "ƒtƒFƒ‰[ƒŠ";
-  public static final String CAR_COLOR = "Ô";
+  public static final String BICYCLE_NAME = "ãƒ“ã‚¢ãƒ³ã‚­";
+  public static final String BICYCLE_COLOR = "ç·‘";
+  public static final String CAR_NAME = "ãƒ•ã‚§ãƒ©ãƒ¼ãƒª";
+  public static final String CAR_COLOR = "èµ¤";
 
-  public static final String BICYCLE_INFO = "y©“]Ô‚Ìî•ñz";
-  public static final String BICYCLE_OWNER = "y©“]Ô‚ÌŠ—LÒ‚Ìî•ñz";
-  public static final String DISTANCE_MSG = "‘–‚é‹——£‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F";
-  public static final String CAR_INFO = "yÔ‚Ìî•ñz";
-  public static final String CAR_OWNER = "yÔ‚ÌŠ—LÒ‚Ìî•ñz";
-  public static final String CAR_FUEL_CHRAGE = "‹‹–û‚·‚é—Ê‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢F";
+  public static final String BICYCLE_INFO = "ã€è‡ªè»¢è»Šã®æƒ…å ±ã€‘";
+  public static final String BICYCLE_OWNER = "ã€è‡ªè»¢è»Šã®æ‰€æœ‰è€…ã®æƒ…å ±ã€‘";
+  public static final String DISTANCE_MSG = "èµ°ã‚‹è·é›¢ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ï¼š";
+  public static final String CAR_INFO = "ã€è»Šã®æƒ…å ±ã€‘";
+  public static final String CAR_OWNER = "ã€è»Šã®æ‰€æœ‰è€…ã®æƒ…å ±ã€‘";
+  public static final String CAR_FUEL_CHRAGE = "çµ¦æ²¹ã™ã‚‹é‡ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ï¼š";
 
   public static final String LINE = "-----------------";
   public static final String LINE_TWIN = "=================";
 
-  public static final String NAME_INFO = "–¼‘OF";
-  public static final String COLOR_INFO = "FF";
-  public static final String DISTANCE_INFO = "‘–s‹——£ :";
-  public static final String FUEL_INFO = "ƒKƒ\ƒŠƒ“—ÊF";
+  public static final String NAME_INFO = "åå‰ï¼š";
+  public static final String COLOR_INFO = "è‰²ï¼š";
+  public static final String DISTANCE_INFO = "èµ°è¡Œè·é›¢ :";
+  public static final String FUEL_INFO = "ã‚¬ã‚½ãƒªãƒ³é‡ï¼š";
 
   public static final String DISTANCE_REC_K = "km";
   public static final String DISTANCE_REC_L = "L";
-  public static final String DISTANCE_REPO_INFO = "km‘–‚è‚Ü‚·";
+  public static final String DISTANCE_REPO_INFO = "kmèµ°ã‚Šã¾ã™";
 
-  public static final String DISTANCE_REPO_MSG = "ƒKƒ\ƒŠƒ“‚ª‘«‚è‚Ü‚¹‚ñ";
-  public static final String CHRGE_MSG = "L‹‹–û‚µ‚Ü‚·";
-  public static final String CHRGE_NG_MSG = "‹‹–û‚Å‚«‚Ü‚¹‚ñ";
-  public static final String CHRGE_FULL_MSG = "–ƒ^ƒ“‚Ü‚Å‹‹–û‚µ‚Ü‚·";
+  public static final String DISTANCE_REPO_MSG = "ã‚¬ã‚½ãƒªãƒ³ãŒè¶³ã‚Šã¾ã›ã‚“";
+  public static final String CHRGE_MSG = "Lçµ¦æ²¹ã—ã¾ã™";
+  public static final String CHRGE_NG_MSG = "çµ¦æ²¹ã§ãã¾ã›ã‚“";
+  public static final String CHRGE_FULL_MSG = "æº€ã‚¿ãƒ³ã¾ã§çµ¦æ²¹ã—ã¾ã™";
 }
