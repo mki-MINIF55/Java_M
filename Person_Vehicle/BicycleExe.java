@@ -3,7 +3,7 @@ import java.util.Scanner;
 /* 
  * メインメソッド 出力するクラス 
  * 
- * @author Miyashita m
+ * @author Miki
  * @version 2023 1/6
  */
 // ----------------------------------------------------------------
