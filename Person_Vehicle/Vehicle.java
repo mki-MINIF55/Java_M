@@ -1,9 +1,9 @@
 /**
- * Bicycle,Car‚Ìe¸×½‚Å‚·B
+ * Bicycle,Carã®è¦ªï½¸ï¾—ï½½ã§ã™ã€‚
  *
  **/
 
-/* @author Miyashita m
+/* @author Miki
  * @version 2023 1/6
  */
 
@@ -15,10 +15,10 @@ abstract class Vehicle {
   private Person_1 owner;
 
   /**
-   * A æ‚è•¨‚Ìºİ½Ä×¸À
+   * A ä¹—ã‚Šç‰©ã®ï½ºï¾ï½½ï¾„ï¾—ï½¸ï¾€
    *
    * @param name,color
-   * @return ‚È‚µ
+   * @return ãªã—
    */
   Vehicle(String name, String color) {
     this.name = name;
@@ -26,7 +26,7 @@ abstract class Vehicle {
   }
 
   /**
-   * B ±¸¾» get set
+   * B ï½±ï½¸ï½¾ï½» get set
    *
    * @param name,color,distance,owner,owner(Person_1 person)
    * @return name,color,distance,owner
@@ -64,10 +64,10 @@ abstract class Vehicle {
   }
 
   /**
-   * C ÃŞ°Ào—Í—pÒ¿¯ÄŞ ÃŞÌ«ÙÄ’l‚Æ‚µ‚Äºİ¿°Ù‚Ö•\¦‚·‚é
+   * C ï¾ƒï¾ï½°ï¾€å‡ºåŠ›ç”¨ï¾’ï½¿ï½¯ï¾„ï¾ ï¾ƒï¾ï¾Œï½«ï¾™ï¾„å€¤ã¨ã—ã¦ï½ºï¾ï½¿ï½°ï¾™ã¸è¡¨ç¤ºã™ã‚‹
    *
-   * @param ‚È‚µ
-   * @return ‚È‚µ
+   * @param ãªã—
+   * @return ãªã—
    */
 
   public void printData() {
@@ -79,14 +79,14 @@ abstract class Vehicle {
   }
 
   /**
-   * D ‘–s‹——£‚ğó‚¯æ‚é’ŠÛÒ¿¯ÄŞ
+   * D èµ°è¡Œè·é›¢ã‚’å—ã‘å–ã‚‹æŠ½è±¡ï¾’ï½¿ï½¯ï¾„ï¾
    *
-   * @param distance ‘–s‹——£
-   *                 (’PˆÊ‚Íkm)
+   * @param distance èµ°è¡Œè·é›¢
+   *                 (å˜ä½ã¯km)
    *
-   * @param distance ‘–s‹——£
+   * @param distance èµ°è¡Œè·é›¢
    * @param
-   * @return ‚È‚µ
+   * @return ãªã—
    */
   public abstract void run(int distance);
 }
