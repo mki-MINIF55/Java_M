@@ -1,13 +1,13 @@
 import java.lang.Math;
 import java.util.Scanner;
 
-/* Ò¿¯ÄÞW–ñ¸×½
- * ’è”¸×½ Consta_Person
- * A •¶Žš—ñ‚ð“ü—Í‚·‚éƒƒ\ƒbƒh Q_Input()
- * B csv‚©‚ç“Ç‚Ýž‚ÝArrayList‚Ì”z—ñ‚É‚µŠi”[‚µŠg’£for•ª‚Å“Ç‚Ýž‚ñ‚¾‘S‚Ä‚ÌArrayList‚ðºÝ¿°Ù‚É•\Ž¦‚·‚éÒ¿¯ÄÞ array_List()
- * C csv‚©‚ç“Ç‚Ýž‚ÝArrayList‚ð”z—ñ‚É‚µŠi”[‚µ‚½ArrayList[]‚©‚ç”»’è‚µ‚½Œ‹‰Ê‚ðºÝ¿°Ù‚É•\Ž¦‚·‚éÒ¿¯ÄÞ arry_Serch_Data()
+/* ï¾’ï½¿ï½¯ï¾„ï¾žé›†ç´„ï½¸ï¾—ï½½
+ * å®šæ•°ï½¸ï¾—ï½½ Consta_Person
+ * A æ–‡å­—åˆ—ã‚’å…¥åŠ›ã™ã‚‹ãƒ¡ã‚½ãƒƒãƒ‰ Q_Input()
+ * B csvã‹ã‚‰èª­ã¿è¾¼ã¿ArrayListã®é…åˆ—ã«ã—æ ¼ç´ã—æ‹¡å¼µforåˆ†ã§èª­ã¿è¾¼ã‚“ã å…¨ã¦ã®ArrayListã‚’ï½ºï¾ï½¿ï½°ï¾™ã«è¡¨ç¤ºã™ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾ž array_List()
+ * C csvã‹ã‚‰èª­ã¿è¾¼ã¿ArrayListã‚’é…åˆ—ã«ã—æ ¼ç´ã—ãŸArrayList[]ã‹ã‚‰åˆ¤å®šã—ãŸçµæžœã‚’ï½ºï¾ï½¿ï½°ï¾™ã«è¡¨ç¤ºã™ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾ž arry_Serch_Data()
  *
- * @author Miyashita m
+ * @author Miki
  * @version 2022 12/6
  */
 
@@ -26,20 +26,20 @@ class Person_1 {
   private static int max_Age = 0;
   private static int totalAge = 0;
 
-  //“ü—ÍŽó•t—p‚ÌScanner‚ð—pˆÓ
+  //å…¥åŠ›å—ä»˜ç”¨ã®Scannerã‚’ç”¨æ„
   Scanner scanner = new Scanner(System.in);
 
   // ----------------------------------------------------------------
   /**
-   * A l”•ª‚Ì•\Ž¦l”A–¼‘OA–¼ŽšA”N—îAg’·A‘Ìd‚Ì“ü—Íî•ñ‚ðŽó•t‚µ
-   * ÌÙÈ°ÑABMI’l‚ðŽZo‚µŒ’NorŒ’N‚Å‚Í‚È‚¢”»’è
-   * ‚³‚ç‚ÉA“ü—Í‚ðŽó‚¯•t‚¯‚½l”‚©‚çÅ‚”N—î‚Æ
-   * •½‹Ï”N—î‚ð”»’è‚µºÝ¿°Ù‚Öo—Í‚·‚éÒ¿¯ÄÞ
+   * A äººæ•°åˆ†ã®è¡¨ç¤ºäººæ•°ã€åå‰ã€åå­—ã€å¹´é½¢ã€èº«é•·ã€ä½“é‡ã®å…¥åŠ›æƒ…å ±ã‚’å—ä»˜ã—
+   * ï¾Œï¾™ï¾ˆï½°ï¾‘ã€BMIå€¤ã‚’ç®—å‡ºã—å¥åº·orå¥åº·ã§ã¯ãªã„åˆ¤å®š
+   * ã•ã‚‰ã«ã€å…¥åŠ›ã‚’å—ã‘ä»˜ã‘ãŸäººæ•°ã‹ã‚‰æœ€é«˜å¹´é½¢ã¨
+   * å¹³å‡å¹´é½¢ã‚’åˆ¤å®šã—ï½ºï¾ï½¿ï½°ï¾™ã¸å‡ºåŠ›ã™ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾ž
    *
-   *‘¼ Žg—pÒ¿¯ÄÞ‚ ‚è
-   * print_Data() Aage_Judge(int age, int AGE_JUDGE)A bmi_Judge()
-   * @param ‚È‚µ
-   * @return ‚È‚µ
+   *ä»– ä½¿ç”¨ï¾’ï½¿ï½¯ï¾„ï¾žã‚ã‚Š
+   * print_Data() ã€age_Judge(int age, int AGE_JUDGE)ã€ bmi_Judge()
+   * @param ãªã—
+   * @return ãªã—
    */
   public void Q_Input() {
     System.out.println(Consta_Person.Q_SERACH);
@@ -86,13 +86,13 @@ class Person_1 {
   }
 
   /**
-   * B “ü—Í‚ÅŽó‚¯•t‚¯‚½ÌÙÈ°ÑA”N—î‚ðºÝ¿°Ù‚É•\Ž¦‚·‚éÒ¿¯ÄÞ ÃÞÌ«ÙÄ’l‚Æ‚µ‚ÄºÝ¿°Ù‚Ö•\Ž¦‚·‚é
+   * B å…¥åŠ›ã§å—ã‘ä»˜ã‘ãŸï¾Œï¾™ï¾ˆï½°ï¾‘ã€å¹´é½¢ã‚’ï½ºï¾ï½¿ï½°ï¾™ã«è¡¨ç¤ºã™ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾ž ï¾ƒï¾žï¾Œï½«ï¾™ï¾„å€¤ã¨ã—ã¦ï½ºï¾ï½¿ï½°ï¾™ã¸è¡¨ç¤ºã™ã‚‹
 
    *
-   *Žg—pÒ¿¯ÄÞ‚ ‚è
+   *ä½¿ç”¨ï¾’ï½¿ï½¯ï¾„ï¾žã‚ã‚Š
    * full_Name(first_Name, last_Name)
-   * @param ‚È‚µ
-   * @return ‚È‚µ
+   * @param ãªã—
+   * @return ãªã—
    */
   public void print_Data() {
     System.out.println(
@@ -106,12 +106,12 @@ class Person_1 {
   }
 
   /**
-   * C “ü—Í‚ÅŽó‚¯•t‚¯‚½–¼‘O‚©‚ç”N—î‚©‚ç–¢¬”NA¬”N‚ð”»’è‚µºÝ¿°Ù‚É•\Ž¦‚·‚éÒ¿¯ÄÞ
+   * C å…¥åŠ›ã§å—ã‘ä»˜ã‘ãŸåå‰ã‹ã‚‰å¹´é½¢ã‹ã‚‰æœªæˆå¹´ã€æˆå¹´ã‚’åˆ¤å®šã—ï½ºï¾ï½¿ï½°ï¾™ã«è¡¨ç¤ºã™ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾ž
    *
-   * Žg—pÒ¿¯ÄÞ‚ ‚è
+   * ä½¿ç”¨ï¾’ï½¿ï½¯ï¾„ï¾žã‚ã‚Š
    * full_Name(first_Name, last_Name)
    * @param age AGE_JUDGE
-   * @return ‚È‚µ
+   * @return ãªã—
    */
   public void age_Judge(int age, int AGE_JUDGE) {
     if (age >= AGE_JUDGE) {
@@ -124,12 +124,12 @@ class Person_1 {
   }
 
   /**
-   * D BMIÒ¿¯ÄÞAis_Healthyƒƒ\ƒbƒh‚ðŽg—p‚µuŒ’NvuŒ’N‚Å‚Í‚È‚¢v‚Ì”»’è‚µºÝ¿°Ù‚É•\Ž¦‚·‚éÒ¿¯ÄÞ
+   * D BMIï¾’ï½¿ï½¯ï¾„ï¾žã€is_Healthyãƒ¡ã‚½ãƒƒãƒ‰ã‚’ä½¿ç”¨ã—ã€Œå¥åº·ã€ã€Œå¥åº·ã§ã¯ãªã„ã€ã®åˆ¤å®šã—ï½ºï¾ï½¿ï½°ï¾™ã«è¡¨ç¤ºã™ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾ž
    *
-   * Žg—pÒ¿¯ÄÞ‚ ‚è
-   * bmi(height, weight)Ais_Healthy(bmi)
-   * @param ‚È‚µ
-   * @return ‚È‚µ
+   * ä½¿ç”¨ï¾’ï½¿ï½¯ï¾„ï¾žã‚ã‚Š
+   * bmi(height, weight)ã€is_Healthy(bmi)
+   * @param ãªã—
+   * @return ãªã—
    */
   public static void bmi_Judge() {
     System.out.println(
@@ -152,7 +152,7 @@ class Person_1 {
   }
 
   /**
-   * E “ü—Í‚ÅŽó‚¯•t‚¯‚½–¼‘OA–¼Žš‚ðŒ‹‡‚·‚é‚·‚éÒ¿¯ÄÞ
+   * E å…¥åŠ›ã§å—ã‘ä»˜ã‘ãŸåå‰ã€åå­—ã‚’çµåˆã™ã‚‹ã™ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾ž
    *
    * @param first_Name,last_Name
    * @return first_Name + last_Name
@@ -162,7 +162,7 @@ class Person_1 {
   }
 
   /**
-   * F “ü—Í‚ÅŽó‚¯•t‚¯‚½g’·A‘Ìd‚©‚çBMI‚ðŽZo‚·‚é‚·‚éÒ¿¯ÄÞ
+   * F å…¥åŠ›ã§å—ã‘ä»˜ã‘ãŸèº«é•·ã€ä½“é‡ã‹ã‚‰BMIã‚’ç®—å‡ºã™ã‚‹ã™ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾ž
    *
    * @param height,weight
    * @return weight / height / height
@@ -172,7 +172,7 @@ class Person_1 {
   }
 
   /**
-   * F bmi’l‚ð”äŠr‚·‚éÒ¿¯ÄÞ
+   * F bmiå€¤ã‚’æ¯”è¼ƒã™ã‚‹ï¾’ï½¿ï½¯ï¾„ï¾ž
    *
    * @param bmi
    * @return bmi >= BMI_MIN && bmi < BMI_MAX
@@ -182,10 +182,10 @@ class Person_1 {
   }
 
   /**
-   * G æ‚è•¨‚ÌŠ—LŽÒ‚ðSet‚·‚é¾¯À°Ò¿¯ÄÞ
+   * G ä¹—ã‚Šç‰©ã®æ‰€æœ‰è€…ã‚’Setã™ã‚‹ï½¾ï½¯ï¾€ï½°ï¾’ï½¿ï½¯ï¾„ï¾ž
    *
    * @param Vehicle vehicle
-   * @return ‚È‚µ
+   * @return ãªã—
    */
   public void buy(Vehicle vehicle) {
     vehicle.setOwner(this);
