@@ -1,7 +1,7 @@
 /*
- * ºİ¿°Ù‚É•\¦‚·‚éPerson_1¸×½‚Ì’è”ƒƒbƒZ[ƒWî•ñ‚ÌƒvƒƒpƒeƒB‚Å‚·
+ * ï½ºï¾ï½¿ï½°ï¾™ã«è¡¨ç¤ºã™ã‚‹Person_1ï½¸ï¾—ï½½ã®å®šæ•°ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸æƒ…å ±ã®ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ã§ã™
  *
- *  @author Miyashita m
+ *  @author Miki
  * @version 2023 1/6
  */
 
@@ -15,41 +15,41 @@ class Consta_Person {
   public static final double INSTA_HE = 0.0;
   public static final double INSTA_WE = 0.0;
 
-  public static final String Q_SERACH = "‰½l•ª‚Ìî•ñ‚ğ“ü—Í‚µ‚Ü‚·‚©F";
-  public static final String Num_count = "l–Ú";
+  public static final String Q_SERACH = "ä½•äººåˆ†ã®æƒ…å ±ã‚’å…¥åŠ›ã—ã¾ã™ã‹ï¼š";
+  public static final String Num_count = "äººç›®";
   public static final String Q_VEH =
-    "‰½‚Éæ‚è‚Ü‚·‚©H  ”š‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢ F ";
-  public static final String Q_VEH_NUM_BICYCLE = " 1: ©“]Ô ";
-  public static final String Q_VEH_NUM_CAR = " 2: Ô ";
+    "ä½•ã«ä¹—ã‚Šã¾ã™ã‹ï¼Ÿ  æ•°å­—ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ ï¼š ";
+  public static final String Q_VEH_NUM_BICYCLE = " 1: è‡ªè»¢è»Š ";
+  public static final String Q_VEH_NUM_CAR = " 2: è»Š ";
   public static final String Q_VEH_NUM_NG =
-    " ”š‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢ ˆ—‚ğ’†’f‚µ‚Ü‚·";
-  public static final String ANS_BICYCLE = " ©“]Ô ";
-  public static final String ANS_CAR = " Ô ";
-  public static final String ANS_SELECT = " ‚ğ‘I‘ğ‚µ‚Ü‚µ‚½ ";
-  public static final String ANS_NG = "“ü—Í‚ªˆê’v‚µ‚Ü‚¹‚ñ‚Å‚µ‚½ ";
+    " æ•°å­—ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ å‡¦ç†ã‚’ä¸­æ–­ã—ã¾ã™";
+  public static final String ANS_BICYCLE = " è‡ªè»¢è»Š ";
+  public static final String ANS_CAR = " è»Š ";
+  public static final String ANS_SELECT = " ã‚’é¸æŠã—ã¾ã—ãŸ ";
+  public static final String ANS_NG = "å…¥åŠ›ãŒä¸€è‡´ã—ã¾ã›ã‚“ã§ã—ãŸ ";
 
-  public static final String NAME = "–¼‘OF";
-  public static final String LAST_NAME = "–¼šF";
-  public static final String AGE = "”N—îF";
-  public static final String HEIGHT = "g’·(m) F ";
-  public static final String WEIGHT = "‘Ìd(kg) F ";
+  public static final String NAME = "åå‰ï¼š";
+  public static final String LAST_NAME = "åå­—ï¼š";
+  public static final String AGE = "å¹´é½¢ï¼š";
+  public static final String HEIGHT = "èº«é•·(m) ï¼š ";
+  public static final String WEIGHT = "ä½“é‡(kg) ï¼š ";
 
-  public static final String FULLNAME_MSG = "„‚Ì–¼‘O‚Í";
-  public static final String AGE_MSG = "”N—î‚Í";
-  public static final String AGE_MAX_MSG = "Å‚”N—î‚Í";
-  public static final String AGE_AVE_MSG = "•½‹Ï”N—î‚Í";
-  public static final String HEIGHT_MSG = "g’·‚Í";
-  public static final String WEIGHT_MSG = "‘Ìd‚Í";
-  public static final String BMI_MSG = "BMI‚Í";
+  public static final String FULLNAME_MSG = "ç§ã®åå‰ã¯";
+  public static final String AGE_MSG = "å¹´é½¢ã¯";
+  public static final String AGE_MAX_MSG = "æœ€é«˜å¹´é½¢ã¯";
+  public static final String AGE_AVE_MSG = "å¹³å‡å¹´é½¢ã¯";
+  public static final String HEIGHT_MSG = "èº«é•·ã¯";
+  public static final String WEIGHT_MSG = "ä½“é‡ã¯";
+  public static final String BMI_MSG = "BMIã¯";
 
-  public static final String FULLNAME_LAST_MSG = "‚Å‚·";
-  public static final String AGE_LAST_MSG = "Î‚Å‚·";
-  public static final String HEIGHT_LAST_MSG = "m‚Å‚·";
-  public static final String WEIGHT_LAST_MSG = "kg‚Å‚·";
+  public static final String FULLNAME_LAST_MSG = "ã§ã™";
+  public static final String AGE_LAST_MSG = "æ­³ã§ã™";
+  public static final String HEIGHT_LAST_MSG = "mã§ã™";
+  public static final String WEIGHT_LAST_MSG = "kgã§ã™";
 
-  public static final String HAGE_MSG = "¬”NÒ‚Å‚·";
-  public static final String LAGE_MSG = "–¢¬”NÒ‚Å‚·";
+  public static final String HAGE_MSG = "æˆå¹´è€…ã§ã™";
+  public static final String LAGE_MSG = "æœªæˆå¹´è€…ã§ã™";
 
-  public static final String HEALTHY_MSG = "Œ’N‚Å‚·";
-  public static final String HEALTHY_NG_MSG = "Œ’N‚Å‚Í‚ ‚è‚Ü‚¹‚ñ";
+  public static final String HEALTHY_MSG = "å¥åº·ã§ã™";
+  public static final String HEALTHY_NG_MSG = "å¥åº·ã§ã¯ã‚ã‚Šã¾ã›ã‚“";
 }
